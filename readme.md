@@ -1,6 +1,6 @@
 ## Sub-window Variance Filter
 
-This is a reference MATLAB implementation of the _**Sub-window Variance filter**_ described in our article [_Multi-scale Image Decomposition Using a Local Statistical Edge Model_](https://ieeexplore.ieee.org/document/9483837).  Our filter uses **Summed Area Table** (integral image) as an acceleration means, and it is also gradient-preserving, i.e. has no gradient reversal problem.
+This is a reference MATLAB implementation of the _**Sub-window Variance filter**_ described in our article [_Multi-scale Image Decomposition Using a Local Statistical Edge Model_](https://ieeexplore.ieee.org/document/9483837).  Our filter uses **Summed Area Table** (integral image) as an acceleration means, and it is also gradient-preserving, i.e. has no gradient reversal problem. (paper preprint [here](https://arxiv.org/abs/2105.01951))
 
 This code has been tested on MATLAB R2019b.
 
