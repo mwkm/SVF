@@ -1,0 +1,1 @@
+# Sub-window Variance Filter
