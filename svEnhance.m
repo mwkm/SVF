@@ -42,7 +42,7 @@ function svEnhance( inName, radius, epsilon, mAmp, fAmp )
 
     inFILE = sprintf( '%s.png' ,inName);
     inImage = double(imread(inFILE))/255.0; 
-    [~, base0] = svFilter( inImage, radius, epsilon );
+    [~, base0] = svf( inImage, radius, epsilon );
     detailF = inImage - base0;
     [~, base1] = svf( base0, radius * 4, epsilon * 2 );
     detailM = base0 - base1;
